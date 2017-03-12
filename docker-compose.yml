@@ -1,0 +1,6 @@
+php:
+    build: ./php
+    ports:
+        - "9000:9000"
+    volumes:
+        - ./project:/var/www/html:rw
